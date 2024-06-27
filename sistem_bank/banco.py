@@ -45,7 +45,7 @@ if __name__ == '__main__':
     c1 = pessoa.Cliente('Renan', 30)
     cc1 = contas.ContaCorrente(111, 222, 0, 0)
     c1.conta = cc1
-    c2 = pessoa.Cliente('Janaina', 29)
+    c2 = pessoa.Cliente('Janaina', 28)
     cp1 = contas.ContaPoupanca(111, 333, 3)
     c2.conta = cp1
     banco = Banco()

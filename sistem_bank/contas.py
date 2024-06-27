@@ -66,7 +66,7 @@ class ContaCorrente(Conta):
 if __name__ == '__main__':
     #cp = conta poupança
     #cc = conta corrente
-    cp1 = ContaPoupanca(111, 222, 0)
+    cp1 = ContaPoupanca(111, 222, 2)
     cp1.sacar(1)
     cp1.depositar(1)
     cp1.sacar(1)
